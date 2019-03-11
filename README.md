@@ -8,9 +8,10 @@
    <br>分析二：接着发现，每个英雄和皮肤都是以异步加载的形式显示出来的，然后我便采用抓包的形式来分析，发现在一个champion.js文件中，存放着所有英雄的信息。
    ![id](https://github.com/JXiuFen/LOL_skin_spider/blob/master/%E5%88%86%E6%9E%90%E4%B8%80.png?raw=true)    
   <br>分析三：通过分析皮肤的URL，发现每一款皮肤都有特定的序号，我接着抓包分析，发现（英雄ID.js）这个文件中，存放着英雄皮肤的序号。
+  ![分析](https://github.com/JXiuFen/LOL_skin_spider/blob/master/%E5%88%86%E6%9E%90%E4%BA%8C.png?raw=true)
   ![皮肤序号](https://github.com/JXiuFen/LOL_skin_spider/blob/master/%E7%9A%AE%E8%82%A4URL%E5%88%86%E6%9E%90.png?raw=true)
-   <br>分析四：拼接皮肤图片的url，将皮肤图片下载到指定目录。
-   
+  
+  <br>分析四：拼接皮肤图片的url，将皮肤图片下载到指定目录。 
    <br>分析五：以英雄名称为目录名，目录下存放该英雄的所有皮肤。
 <br><li>项目实施：<br>第一：获取英雄ID<br>第二：获取皮肤序号<br>第三：下载皮肤图片
 <br><li>项目成果：
