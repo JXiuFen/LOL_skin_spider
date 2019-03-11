@@ -15,7 +15,11 @@
   ![皮肤url](https://github.com/JXiuFen/LOL_skin_spider/blob/master/%E5%88%86%E6%9E%90%E4%B8%89.png?raw=true)
   
   <br>分析五：以英雄名称为目录名，目录下存放该英雄的所有皮肤。
+  ![运行中](https://github.com/JXiuFen/LOL_skin_spider/blob/master/%E8%BF%90%E8%A1%8C%E4%B8%AD.png?raw=true)
+  
 <br><li>项目实施：<br>第一步：获取英雄ID<br>第二步：获取皮肤序号<br>第三：拼接皮肤图片url<br>第四步：保存图片到指定目录
 <br><li>项目成果：
+        
+  ![成果](https://github.com/JXiuFen/LOL_skin_spider/blob/master/%E6%88%90%E6%9E%9C.png?raw=true)
 
 
