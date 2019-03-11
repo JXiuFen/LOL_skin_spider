@@ -3,7 +3,7 @@
 <br><li>项目分析：
         <br>分析一：首先我们分析网页，发现每个英雄的都对应一个ID号，而这个ID号正是，我们获取皮肤的关键所在。
         
-        <br> ![url](https://github.com/JXiuFen/LOL_skin_spider/blob/master/URL%E5%88%86%E6%9E%90.png?raw=true)
+  ![url](https://github.com/JXiuFen/LOL_skin_spider/blob/master/URL%E5%88%86%E6%9E%90.png?raw=true)
         
         <br>分析二：接着发现，每个英雄和皮肤都是以异步加载的形式显示出来的，然后我便采用抓包的形式来分析，发现在一个champion.js文件中，存放着所有英雄的信息。
         <br>分析三：通过分析皮肤的URL，发现每一款皮肤都有特定的序号，我接着抓包分析，发现（英雄ID.js）这个文件中，存放着英雄皮肤的序号。
